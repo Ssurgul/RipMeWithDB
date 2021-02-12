@@ -1,32 +1,25 @@
-# RipMe [![Licensed under the MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/RipMeApp/ripme/blob/master/LICENSE.txt) [![Join the chat at https://gitter.im/RipMeApp/Lobby](https://badges.gitter.im/RipMeApp/Lobby.svg)](https://gitter.im/RipMeApp/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Subreddit](https://img.shields.io/badge/discuss-on%20reddit-blue.svg)](https://www.reddit.com/r/ripme/)
-
-[![Build Status](https://travis-ci.org/RipMeApp/ripme.svg?branch=master)](https://travis-ci.org/RipMeApp/ripme)
-[![Coverage Status](https://coveralls.io/repos/github/RipMeApp/ripme/badge.svg?branch=master)](https://coveralls.io/github/RipMeApp/ripme?branch=master)
+# RipMe With Database (Derby) Support
 
 # Contribute
 
-RipMe is maintained with ♥️ and in our limited free time by **[@MetaPrime](https://github.com/metaprime)**, **[@cyian-1756](https://github.com/cyian-1756)** and **[@kevin51jiang](https://github.com/kevin51jiang)**. If you'd like to contribute but aren't good with code, help keep us happy with a small contribution!
-
-[![Tip with PayPal](https://img.shields.io/badge/PayPal-Buy_us...-lightgrey.svg)](https://www.paypal.me/ripmeapp)
-[![Tip with PayPal](https://img.shields.io/badge/coffee-%245-green.svg)](https://www.paypal.com/paypalme/ripmeapp/send?amount=5.00&currencyCode=USD&locale.x=en_US&country.x=US)
-[![Tip with PayPal](https://img.shields.io/badge/beer-%2410-yellow.svg)](https://www.paypal.com/paypalme/ripmeapp/send?amount=10.00&currencyCode=USD&locale.x=en_US&country.x=US)
-[![Tip with PayPal](https://img.shields.io/badge/lunch-%2420-orange.svg)](https://www.paypal.com/paypalme/ripmeapp/send?amount=20.00&currencyCode=USD&locale.x=en_US&country.x=US)
-[![Tip with PayPal](https://img.shields.io/badge/dinner-%2450-red.svg)](https://www.paypal.com/paypalme/ripmeapp/send?amount=50.00&currencyCode=USD&locale.x=en_US&country.x=US)
-[![Tip with PayPal](https://img.shields.io/badge/custom_amount-...-lightgrey.svg)](https://www.paypal.me/ripmeapp)
+RipMeWithDB is a training exercise for myself, currently, and is part of continuing my basic Java learning all those years ago. It isn't likely to be ready for "prime time" any time soon, and I'm much more apt to simply submit my changes to the RipMe team itself, so they can embrace and extend it beyond these basic framework ideas I have for it.
 
 # About
 
-RipMe is an album ripper for various websites. It is a cross-platform tool that runs on your computer, and requires Java 8. RipMe has been tested and confirmed working on Windows, Linux and MacOS. 
+RipMeWithDB is an album ripper for various websites. It is a fork of the original RipMe tool (https://github.com/ripmeapp/ripme/), but with a few key changes to make it far more useful and independent.
 
-![Screenshot](https://i.imgur.com/UCQNjeg.png)
+Additions:
+- Derby in Embedded mode support
+- Tracking/using personal credentials for various sites
+- Breaking out rippers to indpedent files from the main code
+- Threaded image finding and downloading
+- Shortening redundancy checks of sites already downloaded to conserve API calls
+
+It is a cross-platform tool that runs on your computer, and requires Java 8 (but is being built with OpenJDK 15). RipMeWithDB will be tested on Windows and Linux as those are the only operating systems I have immediate access to. 
 
 ## Downloads
 
-Download `ripme.jar` from the [latest release](https://github.com/ripmeapp/ripme/releases).
-
-**Note: If you're currently using version 1.2.x, 1.3.x or 1.7.49, you will not automatically get updates to the newest versions. We recommend downloading the latest version from the link above.**
-
-For information about running the `.jar` file, see [the How To Run wiki](https://github.com/ripmeapp/ripme/wiki/How-To-Run-RipMe).
+No meaningful changes have been integrated yet, but will be available via Downloads as available.
 
 ## Installation
 
