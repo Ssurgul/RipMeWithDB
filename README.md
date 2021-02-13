@@ -17,6 +17,9 @@ Additions:
 
 It is a cross-platform tool that runs on your computer, and requires Java 8 (but is being built with OpenJDK 15). RipMeWithDB will be tested on Windows and Linux as those are the only operating systems I have immediate access to. 
 
+Current ERD plan for database:
+https://i.postimg.cc/VshkBWBz/Rip-Me-With-DB-Relationship-Diagram.png
+
 ## Downloads
 
 No meaningful changes have been integrated yet, but will be available via Downloads as available.
